@@ -1099,22 +1099,22 @@ en:
     begin_tooltip: |
         <p>A normalized date (in the form YYYY, YYYY-MM, or YYYY-MM-DD) representing a single date or the first date in a date range.</p>
         <p>See DACS 2.4.7-2.4.16</p>
-        <p>A.D. years are expressed with four digits.</p>
-        <p>B.C. years are expressed as a negative number, e.g., -214 for 214 B.C.</p>
+        <p>Years are expressed with four digits.</p>
+        <p>B.C.E. years are expressed as negative numbers, e.g., -0213 for 214 B.C.E.</p>
     end: End
     end_inline_help: e.g. YYYY, YYYY-MM, or YYYY-MM-DD
     end_tooltip: |
         <p>A normalized date (in the form YYYY, YYYY-MM, or YYYY-MM-DD) representing the second date in a date range.</p>
         <p>See DACS 2.4.7-2.4.16</p>
-        <p>A.D. years are expressed with four digits.</p>
-        <p>B.C. years are expressed as a negative number, e.g., -214 for 214 B.C.</p>
+        <p>Years are expressed with four digits.</p>
+        <p>B.C.E. years are expressed as negative numbers, e.g., -0213 for 214 B.C.E.</p>
     certainty: Certainty
     certainty_tooltip: |
         <p>The level of confidence for the information given in a date statement. This information is optional and should only be added when qualifying date information as potentially uncertain based upon the description or cataloging rules in use.</p>
         <p>See EAD attribute "certainty".</p>
     era: Era
     era_tooltip: |
-        <p>Period during which years are numbered and dates reckoned, such as B.C. or C.E. The value "ce" is the default.</p>
+        <p>Period during which years are numbered and dates reckoned, such as B.C.E. or C.E. The value "ce" is the default.</p>
         <p>See EAD attribute "era".</p>
     calendar: Calendar
     calendar_tooltip: |
